@@ -15,6 +15,7 @@
 		1DF827D518B7E99800966167 /* SpirographAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF827D418B7E99800966167 /* SpirographAppDelegate.m */; };
 		1DF827D818B7E99800966167 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF827D618B7E99800966167 /* MainStoryboard.storyboard */; };
 		1DF827DB18B7E99800966167 /* SpirographViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF827DA18B7E99800966167 /* SpirographViewController.m */; };
+		1DF827E318B7E9AB00966167 /* HarmonigraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF827E218B7E9AB00966167 /* HarmonigraphView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		1DF827D718B7E99800966167 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		1DF827D918B7E99800966167 /* SpirographViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpirographViewController.h; sourceTree = "<group>"; };
 		1DF827DA18B7E99800966167 /* SpirographViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpirographViewController.m; sourceTree = "<group>"; };
+		1DF827E118B7E9AB00966167 /* HarmonigraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HarmonigraphView.h; sourceTree = "<group>"; };
+		1DF827E218B7E9AB00966167 /* HarmonigraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HarmonigraphView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 			children = (
 				1DF827D318B7E99800966167 /* SpirographAppDelegate.h */,
 				1DF827D418B7E99800966167 /* SpirographAppDelegate.m */,
+				1DF827E118B7E9AB00966167 /* HarmonigraphView.h */,
+				1DF827E218B7E9AB00966167 /* HarmonigraphView.m */,
 				1DF827D618B7E99800966167 /* MainStoryboard.storyboard */,
 				1DF827D918B7E99800966167 /* SpirographViewController.h */,
 				1DF827DA18B7E99800966167 /* SpirographViewController.m */,
@@ -165,6 +170,7 @@
 				1DF827D118B7E99800966167 /* main.m in Sources */,
 				1DF827D518B7E99800966167 /* SpirographAppDelegate.m in Sources */,
 				1DF827DB18B7E99800966167 /* SpirographViewController.m in Sources */,
+				1DF827E318B7E9AB00966167 /* HarmonigraphView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
