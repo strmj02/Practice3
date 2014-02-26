@@ -16,6 +16,7 @@
 		1DF827D818B7E99800966167 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF827D618B7E99800966167 /* MainStoryboard.storyboard */; };
 		1DF827DB18B7E99800966167 /* SpirographViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF827DA18B7E99800966167 /* SpirographViewController.m */; };
 		1DF827E318B7E9AB00966167 /* HarmonigraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF827E218B7E9AB00966167 /* HarmonigraphView.m */; };
+		2C9863BF18B91D5F00F3548F /* SpirographView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9863BE18B91D5F00F3548F /* SpirographView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		1DF827DA18B7E99800966167 /* SpirographViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpirographViewController.m; sourceTree = "<group>"; };
 		1DF827E118B7E9AB00966167 /* HarmonigraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HarmonigraphView.h; sourceTree = "<group>"; };
 		1DF827E218B7E9AB00966167 /* HarmonigraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HarmonigraphView.m; sourceTree = "<group>"; };
+		2C9863BD18B91D5F00F3548F /* SpirographView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpirographView.h; sourceTree = "<group>"; };
+		2C9863BE18B91D5F00F3548F /* SpirographView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpirographView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +83,10 @@
 		1DF827CA18B7E99800966167 /* MoravianSpirograph */ = {
 			isa = PBXGroup;
 			children = (
-				1DF827D318B7E99800966167 /* SpirographAppDelegate.h */,
 				1DF827D418B7E99800966167 /* SpirographAppDelegate.m */,
+				1DF827D318B7E99800966167 /* SpirographAppDelegate.h */,
+				2C9863BD18B91D5F00F3548F /* SpirographView.h */,
+				2C9863BE18B91D5F00F3548F /* SpirographView.m */,
 				1DF827E118B7E9AB00966167 /* HarmonigraphView.h */,
 				1DF827E218B7E9AB00966167 /* HarmonigraphView.m */,
 				1DF827D618B7E99800966167 /* MainStoryboard.storyboard */,
@@ -171,6 +176,7 @@
 				1DF827D518B7E99800966167 /* SpirographAppDelegate.m in Sources */,
 				1DF827DB18B7E99800966167 /* SpirographViewController.m in Sources */,
 				1DF827E318B7E9AB00966167 /* HarmonigraphView.m in Sources */,
+				2C9863BF18B91D5F00F3548F /* SpirographView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +292,7 @@
 				1DF827E018B7E99800966167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

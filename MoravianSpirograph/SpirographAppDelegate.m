@@ -7,14 +7,18 @@
 //
 
 #import "SpirographAppDelegate.h"
+#import "SpirographViewController.h"
+#import "HarmonigraphView.h"
+#import "SpirographView.h"
 
 @implementation SpirographAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
     return YES;
 }
+
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {

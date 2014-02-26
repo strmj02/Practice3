@@ -14,7 +14,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
+        [self setBackgroundColor:[UIColor lightGrayColor]];
     }
     return self;
 }
@@ -47,6 +47,7 @@
         y=140+K*pow(e,-0.00015*t)*(sin(f3*t+p3)+sin(f4*t+p4));
         p=CGPointMake(x, y);
         [bz addLineToPoint:p];
+        //NSLog(@"%f , %f", p.x, p.y);
     }
     [bz stroke];
 
